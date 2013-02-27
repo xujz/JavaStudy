@@ -18,6 +18,7 @@ public class MyTetris extends JFrame {
 			}
 		}
 		this.setTitle("Xujz's Tetris");
+		this.createBufferStrategy(2);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setSize(300, 400);
 		this.setVisible(true);
@@ -46,8 +47,11 @@ public class MyTetris extends JFrame {
 
 
 
-
-	private int[][][] shapes = new int[][][]{
+	
+	private int[][] metrix = new int[21][10];	//包含方块的矩阵
+	
+	
+	private int[][][] shapes = new int[][][]{	//所有方块的图形
 			{{	1,1,1,1,
 				0,0,0,0,
 				0,0,0,0,
