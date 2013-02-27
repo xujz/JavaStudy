@@ -98,23 +98,22 @@ public class Tetris extends JFrame implements Runnable, KeyListener {
 														 * 、方块x坐标、方块y坐标
 														 */
 	private Image[] images = {
-			new ImageIcon("D:/Java/eclipse/workspace/tetris/src/img/Red.gif")
+			new ImageIcon("1.gif")
 					.getImage(),
-			new ImageIcon("D:/Java/eclipse/workspace/tetris/src/img/Blue.gif")
+			new ImageIcon("2.gif")
 					.getImage(),
-			new ImageIcon(("D:/Java/eclipse/workspace/tetris/src/img/Pink.gif"))
-					.getImage(),
-			new ImageIcon(
-					("D:/Java/eclipse/workspace/tetris/src/img/BBlue.gif"))
+			new ImageIcon(("3.gif"))
 					.getImage(),
 			new ImageIcon(
-					("D:/Java/eclipse/workspace/tetris/src/img/Orange.gif"))
+					("4.gif"))
 					.getImage(),
 			new ImageIcon(
-					("D:/Java/eclipse/workspace/tetris/src/img/Green.gif"))
+					("5.gif"))
 					.getImage(),
-			new ImageIcon("D:/Java/eclipse/workspace/tetris/src/img/Red.gif")
-					.getImage() };/* 各种颜色方块图片 */
+			new ImageIcon(
+					("6.gif"))
+					.getImage()};
+			//* 各种颜色方块图片 */
 
 	public Tetris() {
 		setSize(160, 335);/* 窗口大小 */
