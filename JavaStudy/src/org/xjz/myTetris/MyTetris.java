@@ -38,10 +38,13 @@ public class MyTetris extends JFrame {
 	
 	
 	
-	@Override
-	public void print(Graphics g) {
+	public void print2() {
 		// TODO Auto-generated method stub
-		super.print(g);
+//		super.print(g);
+		
+		Graphics gp = this.getBufferStrategy().getDrawGraphics();
+		gp.fillRect(0, 0, 300, 400);
+		this.getBufferStrategy().show();
 	}
 
 
